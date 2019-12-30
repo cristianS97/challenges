@@ -12,6 +12,12 @@
 """
 
 def inverted_pyramid(n):
-    pass
+    for i in range(n):
+        number = i + 1
+        print(' ' * i, end='')
+        for j in range(n-i):
+            print(number, end=' ')
+            number += (n-j)
+        print(end='\n')
 
 inverted_pyramid(6)
