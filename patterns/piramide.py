@@ -50,4 +50,4 @@ for piso in range(pisos):
     print(" " * (piso + 1), end = "")
     print("*" * ((pisos * 2) - ((2 * piso) + 1)))
 
-input("Presione una tecla para continuar...")
+# input("Presione una tecla para continuar...")
